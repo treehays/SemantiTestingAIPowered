@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleProj", "ConsoleProj"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticTesting", "WebAPI\SemanticTesting\SemanticTesting.csproj", "{54F382AD-9AA4-4D14-9569-5A5BF0A59794}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticTesting", "ConsoleProj\SemanticTesting\SemanticTesting.csproj", "{10B9CC2B-3FCE-442C-A7ED-BCE4B5FC6D44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{54F382AD-9AA4-4D14-9569-5A5BF0A59794}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54F382AD-9AA4-4D14-9569-5A5BF0A59794}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54F382AD-9AA4-4D14-9569-5A5BF0A59794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B9CC2B-3FCE-442C-A7ED-BCE4B5FC6D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B9CC2B-3FCE-442C-A7ED-BCE4B5FC6D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B9CC2B-3FCE-442C-A7ED-BCE4B5FC6D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B9CC2B-3FCE-442C-A7ED-BCE4B5FC6D44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{54F382AD-9AA4-4D14-9569-5A5BF0A59794} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{10B9CC2B-3FCE-442C-A7ED-BCE4B5FC6D44} = {E8B24FF8-C478-4A83-8A3A-8BBA31EE4687}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5577EE28-6827-4C16-BA12-097817B5D389}
